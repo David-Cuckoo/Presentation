@@ -1,0 +1,62 @@
+/* body {
+    width: 1024px;
+    height: 768px;
+} */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 1024px;
+    height: auto;
+    gap: 10px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.box {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    min-width: 50px;
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 600px;
+}
+.dashboard {
+    background-color: yellow;
+    height: 20px;
+    width: 80px;
+}
+.dash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.friend {
+    background-color: skyblue;
+    height: 20px;
+    width: 80px;
+}
+.friends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.set {
+    background-color: violet;
+    height: 20px;
+    width: 80px;
+}
+.settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
