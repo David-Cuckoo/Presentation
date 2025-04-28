@@ -23,6 +23,7 @@ h2 {
     font-size: 14px;
 }
 
+<<<<<<< HEAD
 h3 {
     font-size: 13px;
 }
@@ -39,6 +40,14 @@ li {
     list-style-type: none;
     text-align: left;
         /* text-decoration: none; */
+=======
+li {
+    font-size: 12px;
+    line-height: 20px;
+    list-style-type: none;
+    /* text-decoration: none; */
+
+>>>>>>> 55b48c80860f26b1bebbcc90451e3d7376c2ac68
 }
 
 i {
@@ -106,6 +115,7 @@ i {
     display: flex;
     flex-direction: column;
     margin-left: 20%;
+<<<<<<< HEAD
 }
 
 .profileimg {
@@ -143,3 +153,6 @@ i {
     background-color: lightgray;
 }
 
+=======
+}
+>>>>>>> 55b48c80860f26b1bebbcc90451e3d7376c2ac68
