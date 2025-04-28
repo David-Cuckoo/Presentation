@@ -23,12 +23,22 @@ h2 {
     font-size: 14px;
 }
 
+h3 {
+    font-size: 13px;
+}
+p {
+    display: inline-block;
+    font-size: 10px;
+    margin-top: none;
+}
+
 li {
+    display: flex;
     font-size: 12px;
     line-height: 20px;
     list-style-type: none;
-    /* text-decoration: none; */
-
+    text-align: left;
+        /* text-decoration: none; */
 }
 
 i {
@@ -77,13 +87,59 @@ i {
     flex-direction: column;
     margin-left: 20%;
 }
-.set {
-    background-color: violet;
-    height: 20px;
-    width: 80px;
+
+.info1 {
+    display: block;
+    line-height: 1px;
 }
+
+.friendinfo {
+    display: flex;
+}
+
+.friendimg {
+    border-radius: 50%;
+    width: 20px;
+}
+
 .settings {
     display: flex;
     flex-direction: column;
     margin-left: 20%;
 }
+
+.profileimg {
+    border-radius: 50%;
+    width: 50px;
+
+}
+.profilewelcome {
+    display: block;
+    line-height: 1px;
+}
+
+.chart {
+    width: 150px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
+    text-align: center;
+}
+
+.mentor {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.all {
+    border-radius: 25px;
+    color: blue;
+    background-color: lightgray;
+}
+
